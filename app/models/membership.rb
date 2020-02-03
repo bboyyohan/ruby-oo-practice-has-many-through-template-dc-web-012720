@@ -6,10 +6,14 @@ class Membership
         @club = club
         @student = student
         @@all << self
+        @club.treasury += 5 
+    
     end
 
     def self.all
         @@all
     end
+
+ 
 
 end

@@ -20,9 +20,11 @@ rel1 = Membership.new(math, yo)
 rel2 = Membership.new(book, bri)
 rel3 = Membership.new(chess, carl)
 rel4 = Membership.new(chess, bri)
-rel5 = Membership.new(math, valentin)
+rel5 = Membership.new(book, valentin)
 rel6 = Membership.new(book, lauren)
 rel7 = Membership.new(chess, wesley)
+
+
 
 binding.pry
 0 #leave this here to ensure binding.pry isn't the last line
